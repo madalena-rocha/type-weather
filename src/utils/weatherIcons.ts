@@ -47,3 +47,7 @@ export const weatherIcons = {
     icon_night: iconSnowNight,
   },
 }
+
+export type WeatherIconsKeysProps = typeof weatherIcons;
+// o typeof retorna o tipo e não o conteúdo do objeto
+// keyof para extrair as chaves do tipo do conteúdo do objeto
