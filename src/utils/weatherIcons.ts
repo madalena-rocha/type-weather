@@ -48,6 +48,6 @@ export const weatherIcons = {
   },
 }
 
-export type WeatherIconsKeysProps = typeof weatherIcons;
+export type WeatherIconsKeysProps = keyof typeof weatherIcons;
 // o typeof retorna o tipo e não o conteúdo do objeto
 // keyof para extrair as chaves do tipo do conteúdo do objeto
